@@ -15,5 +15,6 @@ public class FibonacciSeries {
             n2 = n3;
             n3 = n1 + n2;
         }
+        scn.close();
     }
 }

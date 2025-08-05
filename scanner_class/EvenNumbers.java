@@ -15,5 +15,6 @@ public class EvenNumbers {
             if (i % 2 == 0)
                 System.out.println(i);
         }
+        scn.close();
     }
 }

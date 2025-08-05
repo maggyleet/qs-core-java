@@ -11,6 +11,7 @@ public class Greatest {
         int num2 = scn.nextInt();
         System.out.println("The Greatest number: ");
         greatestNum(num1, num2);
+        scn.close();
     }
 
     public static void greatestNum(int num1, int num2) {

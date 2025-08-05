@@ -20,6 +20,7 @@ public class PalindromeOrNot {
         } else {
             System.out.println("The number is not a palindome!!");
         }
+        scn.close();
     }
 
 }

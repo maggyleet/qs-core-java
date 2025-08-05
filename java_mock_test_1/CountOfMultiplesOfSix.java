@@ -16,5 +16,6 @@ public class CountOfMultiplesOfSix {
             }
         }
         System.out.println("The count of multiples of 6 btw a range: " + count);
+        scn.close();
     }
 }

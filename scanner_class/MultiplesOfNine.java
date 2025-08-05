@@ -15,5 +15,6 @@ public class MultiplesOfNine {
             if (i % 9 == 0)
                 System.out.println(i);
         }
+        scn.close();
     }
 }

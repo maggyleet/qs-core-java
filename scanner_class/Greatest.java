@@ -13,5 +13,6 @@ public class Greatest {
             System.out.println("Greatest num: " + num1);
         else
             System.out.println("Greatest num: " + num2);
+        scn.close();
     }
 }

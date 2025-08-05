@@ -11,6 +11,7 @@ public class OddNumberRange {
         int end = scn.nextInt();
         System.out.println("The odd numbers: ");
         oddNumbers(start, end);
+        scn.close();
     }
 
     public static void oddNumbers(int start, int end) {

@@ -10,5 +10,6 @@ public class AreaOfRectangle {
         System.out.println("Enter breadth of the rectange: ");
         int breadth = scn.nextInt();
         System.out.println("Area Of Rectangle: " + length * breadth);
+        scn.close();
     }
 }

@@ -18,5 +18,7 @@ public class PerfectNumberCheck {
             System.out.println(num + " is a Perfect Number");
         else
             System.out.println(num + " is Not a Perfect Number");
+
+        scn.close();
     }
 }

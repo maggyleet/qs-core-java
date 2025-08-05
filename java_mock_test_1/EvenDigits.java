@@ -14,5 +14,6 @@ public class EvenDigits {
             }
             num = num / 10;
         }
+        scn.close();
     }
 }

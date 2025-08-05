@@ -20,5 +20,7 @@ public class PalindromeOrNot {
             System.out.println("Palindrome");
         else
             System.out.println("Not Palindrome");
+
+        scn.close();
     }
 }

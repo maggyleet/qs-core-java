@@ -14,6 +14,6 @@ public class OddNumbersRange {
                 System.out.println(i);
             }
         }
-
+        scn.close();
     }
 }

@@ -13,5 +13,7 @@ public class ReverseRange {
         for (int i = end; i >= start; i--) {
             System.out.println(i + " ");
         }
+
+        scn.close();
     }
 }

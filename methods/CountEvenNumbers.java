@@ -11,6 +11,7 @@ public class CountEvenNumbers {
         int end = scn.nextInt();
         System.out.println("The count of even numbers: ");
         evenNumbersCount(start, end);
+        scn.close();
     }
 
     public static void evenNumbersCount(int start, int end) {

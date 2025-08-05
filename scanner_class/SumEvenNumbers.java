@@ -17,5 +17,6 @@ public class SumEvenNumbers {
         }
 
         System.out.println("Sum of even numbers: " + sum);
+        scn.close();
     }
 }
