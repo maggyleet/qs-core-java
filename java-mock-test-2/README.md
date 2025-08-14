@@ -53,7 +53,7 @@ Rules:
 4. Cannot be a keyword
 
 ## 7. What is operator? List all the operators.
-Operators perform operations on data.
+Operators are the symbols which are used to perform some operation on the values. The values on which we perform the operation or technically called as operands.
 - Arithmetic: `+ - * / %`
 - Relational: `== != > < >= <=`
 - Logical: `&& || !`
