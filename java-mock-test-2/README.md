@@ -260,3 +260,7 @@ class FindPosition {
 }
 ```
 ---
+
+Good morning everyone, my name is Kiara. I’m from \[Your City], and I’m currently in my final year of Computer Science Engineering. I have a strong interest in Java programming, web development, and problem solving, and I’ve been actively working on projects like a XY and a AB.
+I joined this training to strengthen my core Java and coding skills, and to gain practical exposure through hands-on projects.
+Outside of academics, I enjoy exploring new tech tools and improving my design skills in HTML, CSS, and JavaScript. I’m excited to learn, collaborate, and grow here.
