@@ -111,3 +111,152 @@ int[] arr = new int[5];
 
 ## 18. What is the use of default in switch statement?
 Executes when no `case` matches the value.
+
+
+## Java Programs
+
+### 1. Perfect Number
+
+```java
+import java.util.Scanner;
+class PerfectNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt(), sum = 0;
+        for(int i=1;i<n;i++)
+            if(n % i == 0) sum += i;
+        System.out.println(sum == n ? "Perfect" : "Not Perfect");
+    }
+}
+```
+---
+
+### 2. Prime Number
+```java
+class PrimeCheck {
+    public static void main(String[] args) {
+        int n = 29, flag = 0;
+        for(int i=2;i<=n/2;i++) {
+            if(n % i == 0) { flag = 1; break; }
+        }
+        System.out.println(flag==0 ? "Prime" : "Not Prime");
+    }
+}
+```
+---
+
+### 3. Factorial
+```java
+class Factorial {
+    public static void main(String[] args) {
+        int n = 5, fact = 1;
+        for(int i=1;i<=n;i++) fact *= i;
+        System.out.println(fact);
+    }
+}
+```
+---
+
+### 4. Fibonacci Series
+```java
+class Fibonacci {
+    public static void main(String[] args) {
+        int n = 10, a = 0, b = 1;
+        for(int i=0;i<n;i++) {
+            System.out.print(a + " ");
+            int temp = a + b;
+            a = b;
+            b = temp;
+        }
+    }
+}
+```
+---
+
+### 5. Number Palindrome
+```java
+class NumPalindrome {
+    public static void main(String[] args) {
+        int num = 121, rev = 0, temp = num;
+        while(num != 0) {
+            rev = rev*10 + num%10;
+            num /= 10;
+        }
+        System.out.println(temp == rev ? "Palindrome" : "Not Palindrome");
+    }
+}
+```
+---
+
+### 6. Print char by char from a String
+```java
+class CharByChar {
+    public static void main(String[] args) {
+        String s = "Hello";
+        for(int i=0;i<s.length();i++)
+            System.out.println(s.charAt(i));
+    }
+}
+```
+---
+
+### 7. Print char by char in reverse
+```java
+class ReverseChar {
+    public static void main(String[] args) {
+        String s = "Hello";
+        for(int i=s.length()-1;i>=0;i--)
+            System.out.println(s.charAt(i));
+    }
+}
+```
+---
+
+### 8. String Palindrome
+```java
+class StringPalindrome {
+    public static void main(String[] args) {
+        String s = "madam", rev = "";
+        for(int i=s.length()-1;i>=0;i--) rev += s.charAt(i);
+        System.out.println(s.equals(rev) ? "Palindrome" : "Not Palindrome");
+    }
+}
+```
+---
+
+### 9. Print all even/odd/sum of even/sum of odd from array
+```java
+class EvenOddArray {
+    public static void main(String[] args) {
+        int[] arr = {1,2,3,4,5};
+        int sumEven=0, sumOdd=0;
+        System.out.print("Even: ");
+        for(int n : arr) {
+            if(n%2==0) { System.out.print(n+" "); sumEven+=n; }
+        }
+        System.out.print("\nOdd: ");
+        for(int n : arr) {
+            if(n%2!=0) { System.out.print(n+" "); sumOdd+=n; }
+        }
+        System.out.println("\nSum Even: " + sumEven);
+        System.out.println("Sum Odd: " + sumOdd);
+    }
+}
+```
+---
+
+### 10. Find position of given element from array
+
+```java
+class FindPosition {
+    public static void main(String[] args) {
+        int[] arr = {10,20,30,40};
+        int target = 30, pos = -1;
+        for(int i=0;i<arr.length;i++) {
+            if(arr[i] == target) { pos = i; break; }
+        }
+        System.out.println(pos != -1 ? "Position: " + pos : "Not found");
+    }
+}
+```
+---
