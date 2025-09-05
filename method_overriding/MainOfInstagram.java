@@ -1,4 +1,4 @@
-package method_overloading;
+package method_overriding;
 
 class InstagramV1 {
     public void login() {

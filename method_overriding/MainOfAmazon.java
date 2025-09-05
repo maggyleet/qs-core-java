@@ -1,4 +1,4 @@
-package method_overloading;
+package method_overriding;
 
 class AmazonVersion1 {
 
